@@ -10,7 +10,8 @@
     "@pika/react": "^16.13.1",
     "@pika/react-dom": "^16.13.1",
     "apollo-boost": "^0.4.9",
-    "graphql": "^15.3.0"
+    "graphql": "^15.3.0",
+    "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
     "vite": "^1.0.0-rc.1",

@@ -1,9 +1,21 @@
 .App {
   text-align: center;
 }
+.App-logos{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
 
 .App-logo {
   height: 40vmin;
+  width: 340px;
+  pointer-events: none;
+}
+
+.App-logo-gql {
+  height: 40vmin;
+  width: 200px;
   pointer-events: none;
 }
 
@@ -39,4 +51,13 @@
 
 button {
   font-size: calc(10px + 2vmin);
+}
+
+@media screen and (max-width:600px){
+  .App-logo{
+    width: 150px;
+  }
+  .App-logo-gql{
+    width: 100px;
+  }
 }
