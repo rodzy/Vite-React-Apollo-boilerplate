@@ -14,9 +14,10 @@ const Home = () => {
           <img src={graphql} className="App-logo-gql" alt="logo" />
         </div>
         <p>Hello Vite + React + Apollo</p>
-        <Link to="/page-2">Go to page 2</Link>
+        <Link to="/page-2">Go to page 2 - (Fetch users)</Link>
+        <Link to="/page-3">Go to page 3 - (Register users)</Link>
         <p>
-          Edit <code>App.jsx</code> and save to test HMR updates.
+          Edit <code>App.jsx</code> and save to test Cold HMR updates.
         </p>
         <a
           className="App-link"
