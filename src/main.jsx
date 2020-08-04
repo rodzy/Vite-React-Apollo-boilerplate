@@ -12,7 +12,7 @@ import { ApolloProvider } from "@apollo/react-hooks";
     https://github.com/rodzy/graphql-apollo-starter.
 */
 const client = new ApolloClient({
-  uri: "https://localhost:8080/graphql",
+  uri: "https://localhost:4000/graphql",
 });
 
 /* The Apollo Provider wraps all the SPA App
